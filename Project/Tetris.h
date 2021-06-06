@@ -29,7 +29,7 @@ public: int color;
 private:
 	int type = rand() % 7;
 public: FallingPieces() {
-	color = rand() % numberOfColors;
+	color = type;
 	pieces.push_back({ rows - 1,5 });
 	pieces.push_back({ rows - 1,4 });
 	//I couldn't find a more efficient method so this left

@@ -50,13 +50,13 @@ void NormalKeysDetection(unsigned char key, int x, int y);
 //Adds the main colors and sets the background color
 void InitWindow() {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
-	colors[0] = new Color(1.0, 0.0, 0.0);//red
-	colors[1] = new Color(0.0, 1.0, 0.0);//green
-	colors[2] = new Color(0.0, 0.0, 1.0);//blue
-	colors[3] = new Color(1.0, 0.0, 1.0);//purple
-	colors[4] = new Color(1.0, 1.0, 0.0);//yellow
-	colors[5] = new Color(1.0, 0.65, 0.0);//orange
-	colors[6] = new Color(0.67, 0.85, 0.90);//light blue
+	colors[0] = new Color(0.67, 0.85, 1.0);//light blue
+	colors[1] = new Color(0.0, 0.0, 1.0);//blue
+	colors[2] = new Color(1.0, 0.65, 0.0);//orange
+	colors[3] = new Color(1.0, 1.0, 0.0);//yellow
+	colors[4] = new Color(0.0, 1.0, 0.0);//green
+	colors[5] = new Color(1.0, 0.0, 1.0);//purple
+	colors[6] = new Color(1.0, 0.0, 0.0);//red
 }
 
 //------------------------------------------------------------------
